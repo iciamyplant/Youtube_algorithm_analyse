@@ -1,7 +1,7 @@
 # I - Récupérez des données
-(openclassroom télécharger les données)[https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees]
+[openclassroom télécharger les données](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 # II - Nettoyez vos données
-(openclassroom)[https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees]
+[openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees)
 - Nettoyer un jeu de données
 - Représenter les variables
 - analyse univariée
