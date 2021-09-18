@@ -1,7 +1,14 @@
+
+[librairies python pour la data science - openclassroom](https://openclassrooms.com/fr/courses/4452741-decouvrez-les-librairies-python-pour-la-data-science)
+[initiez-vous à python pour l’analyse de données - openclassroom](https://openclassrooms.com/fr/courses/6204541-initiez-vous-a-python-pour-lanalyse-de-donnees)
+[initiez-vous au langage R pour analyser vos données - openclassroom](https://openclassrooms.com/fr/courses/4525256-initiez-vous-au-langage-r-pour-analyser-vos-donnees)
+[initiez-vous à l’IA (etapes d’un projet IA, machine learning, deep learning) - openclassroom](https://openclassrooms.com/fr/courses/6417031-objectif-ia-initiez-vous-a-lintelligence-artificielle)
+
+
 # I - Récupérez des données
-[openclassroom télécharger les données](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
+[télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 # II - Nettoyez vos données
-[openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees)
+[nettoyez votre jeu de données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees)
 - Nettoyer un jeu de données
 - Représenter les variables
 - analyse univariée
@@ -20,3 +27,5 @@ Un modèle = représentation mathématique d’un problème donné
 # V - Évaluez et interprétez vos données 
 On va tester le modèle pour voir s’il est pertinent
 # VI - Mettez votre système en production
+
+
