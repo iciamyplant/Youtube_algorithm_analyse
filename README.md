@@ -23,6 +23,8 @@
 |Vues|Nombre de vues légitimes pour vos chaînes ou vidéos.|
 
 **Autres métriques**
+| Donnée | Explication |
+|----------|-------|
 |Spectateurs uniques | Estimation du nombre de spectateurs ayant regardé votre contenu pendant la plage de dates sélectionnée.|
 |*Durée de visionnage (heures)* | Durée pendant laquelle les spectateurs ont regardé votre vidéo.|
 |Pourcentage moyen de vidéo regardé|Pourcentage moyen de visionnage d'une vidéo par votre audience.|
