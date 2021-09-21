@@ -1,24 +1,25 @@
 # I - Récupérez des données
+### 1. Comprendre les métriques
 
 **Sur les sources de trafic : comment les spectateurs trouvent les vidéos**
 | Donnée | Explication |
 |----------|-------|
-|*Pourcentage des impressions issues des recommandations de YouTube* (pas indiqué dans les stats, prélevable à la main)| Par exemple : 85,4 % suite aux recommandations de votre contenu par YouTube|
 |Fonctionnalités de navigation| Trafic généré par la page d'accueil, le flux "Abonnements", la playlist "À regarder plus tard", les onglets "Tendances" et "Découvrir" ainsi que d'autres fonctionnalités de navigation. |
 |Suggestion de vidéos| Trafic généré par les suggestions qui s'affichent à côté ou après d'autres vidéos, et par les liens inclus dans les descriptions de vidéos.|
 |Pages de chaîne| Trafic généré par votre chaîne ou d'autres chaînes YouTube.|
 |Autres fonctionnalités YouTube|Trafic généré par YouTube qui ne rentre pas dans les autres catégories.|
+|*Pourcentage des impressions issues des recommandations de YouTube* (pas indiqué dans les stats, prélevable à la main)| Par exemple : 85,4 % suite aux recommandations de votre contenu par YouTube. Sur la page d'accueil	+ sur la page de lecture (Le reste, pas contenu dans ce pourcentage c'est "les spectateurs à la recherche de votre contenu") |
 
 **Sur les impressions : comment les impressions de vos miniatures font cliquer** :
 | Donnée | Explication |
 |----------|-------|
 |*Impressions* | Nombre de fois où vos miniatures ont été présentées aux spectateurs sur YouTube grâce aux impressions enregistrées.|
-|*Taux de clics par impression* | Nombre de fois où les spectateurs ont regardé une vidéo après avoir vu sa miniature. Vues par impression. Mesure la fréquence à laquelle les spectateurs regardent une vidéo après avoir vu une impression |
+|*Taux de clics par impression* | Nombre de fois où les spectateurs ont regardé une vidéo après avoir vu sa miniature. Vues par impression. Mesure la fréquence à laquelle les spectateurs regardent une vidéo après avoir vu une impression. Sachant que plus la vidéo est recommandée, plus ce taux baisse |
 
 **Sur les impressions : comment les impressions de vos miniatures ont généré des vues et contribué à la durée de visionnage** :
 | Donnée | Explication |
 |----------|-------|
-|*Vues générées par les impressions*| Nombre de vues générées par les impressions pour la plage de dates sélectionnée.|
+|*Vues générées par les impressions*| Nombre de vues générées par les impressions pour la plage de dates sélectionnée. (car les impressions ne comptabilisent par exemple pas le Site Web mobile YouTube, l'application Youtube Music...)|
 |*Durée de visionnage générées par les impressions*|Durée de visionnage générée par les impressions pour la plage de dates sélectionnée.|
 |Vues|Nombre de vues légitimes pour vos chaînes ou vidéos.|
 
@@ -32,6 +33,13 @@
 
 Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos contenus, augmentez votre taux de clics et la durée de visionnage de vos vidéos"
 
+- **Pour savoir à quel point une vidéo a été recommandée** : le rapport entre le pourcentage des impressions issues des recommandations de YouTube et le nombre total d'impressions (Par exemple vidéo hacker une caméra 8 600 000 impressions et 85,4 % issus des recommandations Youtube. Soit 7 344 400 impressions générées par les recommandations)
+- **Pour savoir à quel point une vidéo fait cliquer** : le rapport entre le taux de clics par impression et le nombre total d'impressions. + J'ai la possibilité d'avoir l'évolution du taux de clics par impression, on peut voir comment il était au moment de la sortie de la vidéo et plus tard pour pouvoir comparer entre les vidéos.
+- **Pour savoir si à quel point la vidéo est regardée** :
+
+### 2. Objectif financier de Youtube
+Où sont les pubs ? Combien de % prend youtube ? 
++ Ajouter les métriques de si Youtube sur rémunère sur la vidéo, combien il y a de pubs etc.
 
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 # II - Nettoyez vos données
