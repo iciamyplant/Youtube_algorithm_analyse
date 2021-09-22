@@ -1,5 +1,6 @@
 # I - Récupérez des données
 ### 1. Comprendre les métriques
+[Documentation Youtube sur les données](https://support.google.com/youtube/topic/9257532?hl=fr&ref_topic=9257610)
 
 **Sur les sources de trafic : comment les spectateurs trouvent les vidéos**
 | Donnée | Explication |
