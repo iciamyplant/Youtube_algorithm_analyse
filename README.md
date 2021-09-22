@@ -110,7 +110,7 @@ Demander les données aux gens :
 => attention à exporter en csv
 
 **Sur la recommandation et monétisation**
-- pour chacune des 24 vidéos m’envoyer l’image de la vignette, du fennel, puis une photo de la monétisation
+- pour chacune des 24 vidéos m’envoyer l’image de la vignette, du fennel, puis une photo de la monétisation, + à la main ajouter durée de la vidéo
 
 
 
