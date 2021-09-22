@@ -74,6 +74,47 @@ Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos con
 - état de la monétisation
 
 ### 4. Télécharger les données
+
+Demander les données aux gens :
+
+**Sur les stats globales , en google sheets :**
+- vues
+- le nombre total d'impressions
+- le taux de clics par impression général
+- pourcentage moyen de vidéo regardé
+- Sélectionner ces données là : Vues, Pourcentage moyen de vidéo regardé, Durée moyenne d'une vue, Impressions, Taux de clics par impression
+=> Pour le “total”
+=> Attention à bien mettre “depuis toujours”
+=> Exporter en google sheets
+
+=> Sélectionner les 24 dernières vidéos.
+
+**Sur l’évolution du taux de clics de toutes les vidéos en .csv :**
+- évolution du taux de clics par impression
+- attention à bien mettre “depuis toujours”
+=> mettre sur le graphique “taux de clics par impression”
+=> que la stat “taux de clics par impression”
+=> sélectionner 12 premières vidéos des vidéos qu’on a sélectionné
+=> attention à exporter en csv
+=> désélectionner les 12 premières et prendre les 12 suivantes des vidéos qu’on a sélectionné
+=> attention à exporter en csv
+
+**Sur l’évolution du nombre d'impression de toutes les vidéos en .csv :**
+- évolution du nombre d'impressions
+=> attention à bien mettre “depuis toujours”
+=> mettre sur le graphique “impression”
+=> que la stat “impression”
+=> sélectionner 12 premières vidéos des vidéos qu’on a selectionné
+=> attention à exporter en csv
+=> désélectionner les 12 premières et prendre les 12 suivantes des vidéos qu’on a selectionné
+=> attention à exporter en csv
+
+**Sur la recommandation et monétisation**
+- pour chacune des 24 vidéos m’envoyer l’image de la vignette, du fennel, puis une photo de la monétisation
+
+
+
+
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 
 # II - Nettoyez vos données
