@@ -43,11 +43,11 @@
 
 | Donnée | Explication |
 |----------|-------|
-| démonétisé (rouge) | Réclamation pour atteinte aux droits d'auteur|
-| démonétisé par choix ||
-| monétisation limité (jaune)| Pas conforme à l'ensemble de nos consignes relatives aux contenus adaptés aux annonceurs, certaines marques peuvent choisir de bloquer la diffusion de leurs annonces sur le contenu. Vidéo moins adaptée aux annonceurs, moins de revenus générés.|
-|monétisé sans mid-roll| Soit mid-roll désactivé à la main, soit la vidéo fait moins de 8min|
-|monétisé avec mid-roll| |
+| démonétisé (rouge) = 1 | Réclamation pour atteinte aux droits d'auteur|
+| démonétisé par choix = 0 ||
+| monétisation limité (jaune) = 2| Pas conforme à l'ensemble de nos consignes relatives aux contenus adaptés aux annonceurs, certaines marques peuvent choisir de bloquer la diffusion de leurs annonces sur le contenu. Vidéo moins adaptée aux annonceurs, moins de revenus générés.|
+|monétisé sans mid-roll = 3| Soit mid-roll désactivé à la main, soit la vidéo fait moins de 8min|
+|monétisé avec mid-roll = 4| |
 
 Les titulaires de droits d'auteur peuvent configurer Content ID pour bloquer les vidéos mises en ligne lorsqu'une correspondance est établie entre celles-ci et l'une de leurs œuvres protégées. Ils peuvent également accepter de laisser les contenus revendiqués en ligne sur YouTube, mais en activant la diffusion d'annonces. Dans ce cas, les revenus publicitaires sont reversés aux titulaires des droits d'auteur des contenus en question.
 
