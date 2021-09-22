@@ -23,6 +23,13 @@
 |*Durée de visionnage générées par les impressions*|Durée de visionnage générée par les impressions pour la plage de dates sélectionnée.|
 |Vues|Nombre de vues légitimes pour vos chaînes ou vidéos.|
 
+**Sur les revenus** : 
+| Donnée | Explication |
+|----------|-------|
+|CPM| désigne le coût pour mille impressions basé sur les lectures. Indique combien les annonceurs ont payé pour 1 000 lectures monétisées. Le CPM est calculé en divisant le total des revenus générés par les annonces par le nombre estimé de lectures monétisées. Une lecture monétisée est enregistrée lorsqu'un spectateur voit au moins une impression d'annonce pendant qu'il regarde l'une de vos vidéos (il s'agit d'une estimation).|
+|RPM| Le revenu pour mille vues, représente la somme d'argent générée par millier de vues d'une vidéo (comprend les annonces, les souscriptions aux chaînes, YouTube Premium, les Super Chats et les Super Stickers.)|
+|Revenus estimés||
+
 **Autres métriques**
 | Donnée | Explication |
 |----------|-------|
@@ -31,18 +38,47 @@
 |Pourcentage moyen de vidéo regardé|Pourcentage moyen de visionnage d'une vidéo par votre audience.|
 
 
+### 2. Objectif financier de Youtube
+
+| Donnée | Explication |
+|----------|-------|
+| démonétisé (rouge) | Réclamation pour atteinte aux droits d'auteur|
+| démonétisé par choix ||
+| monétisation limité (jaune)| Pas conforme à l'ensemble de nos consignes relatives aux contenus adaptés aux annonceurs, certaines marques peuvent choisir de bloquer la diffusion de leurs annonces sur le contenu. Vidéo moins adaptée aux annonceurs, moins de revenus générés.|
+|monétisé sans mid-roll| Soit mid-roll désactivé à la main, soit la vidéo fait moins de 8min|
+|monétisé avec mid-roll| |
+
+Les titulaires de droits d'auteur peuvent configurer Content ID pour bloquer les vidéos mises en ligne lorsqu'une correspondance est établie entre celles-ci et l'une de leurs œuvres protégées. Ils peuvent également accepter de laisser les contenus revendiqués en ligne sur YouTube, mais en activant la diffusion d'annonces. Dans ce cas, les revenus publicitaires sont reversés aux titulaires des droits d'auteur des contenus en question.
+
+Youtube dit : "Les annonces vidéo sont moins susceptibles d'être diffusées sur les vidéos très courtes. Ceci nous permet d'optimiser l'engagement des spectateurs et les revenus générés au cours de chaque session de visionnage sur YouTube."
+
+- Types d'annonces : Annonces display, Annonces en superposition, Fiches sponsorisées, Annonces vidéo désactivables, Annonces vidéo non désactivables [les types d'annonces](https://support.google.com/youtube/answer/2467968?hl=fr)
+- Les annonces placées avant et après votre vidéo seront activées automatiquement.
+- Revenus liés à la publicité : YouTube vous versera 55 % des revenus nets reconnus par YouTube à partir de publicités affichées ou diffusées par YouTube ou par un tiers autorisé sur les pages de visualisation de votre Contenu ou dans ou sur le lecteur vidéo YouTube en rapport avec la diffusion de votre Contenu.
+- Revenus liés aux abonnements (=par YouTube Music, Google Play Musique et YouTube Premium) : YouTube vous versera 55 % des revenus nets totaux reconnus par YouTube à partir des frais d’abonnement attribuables aux vues mensuelles ou au temps de visionnement de votre Contenu en tant que  pourcentage des vues mensuelles ou du temps de visionnement de la totalité ou d’un élément du Contenu inclus au sein d’une offre par abonnement pertinente.
+
+### 3. Choisir ses métriques
 Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos contenus, augmentez votre taux de clics et la durée de visionnage de vos vidéos"
 
-- **Pour savoir à quel point une vidéo a été recommandée** : le rapport entre le pourcentage des impressions issues des recommandations de YouTube et le nombre total d'impressions (Par exemple vidéo hacker une caméra 8 600 000 impressions et 85,4 % issus des recommandations Youtube. Soit 7 344 400 impressions générées par les recommandations)
-- **Pour savoir à quel point une vidéo fait cliquer** : le rapport entre le taux de clics par impression et le nombre total d'impressions. + J'ai la possibilité d'avoir l'évolution du taux de clics par impression, on peut voir comment il était au moment de la sortie de la vidéo et plus tard pour pouvoir comparer entre les vidéos.
-- **Pour savoir si à quel point la vidéo est regardée** :
+| Objectif | Explication |
+|----------|-------|
+|Pour savoir à quel point une vidéo a été recommandée | le rapport entre le pourcentage des impressions issues des recommandations de YouTube et le nombre total d'impressions (Par exemple vidéo hacker une caméra 8 600 000 impressions et 85,4 % issus des recommandations Youtube. Soit 7 344 400 impressions générées par les recommandations)|
+|Pour savoir à quel point une vidéo fait cliquer | le rapport entre le taux de clics par impression et le nombre total d'impressions. + J'ai la possibilité d'avoir l'évolution du taux de clics par impression, on peut voir comment il était au moment de la sortie de la vidéo et plus tard pour pouvoir comparer entre les vidéos.|
+|Pour savoir à quel point la vidéo est regardée | rapport entre la durée de la vidéo et le pourcentage moyen de vidéo regardé (plus la vidéo est longue, plus c'est dur que la personne regarde tout)| 
+|Pour savoir à quel point la vidéo rapporte de l'argent à Youtube | Etat de la monétisation |
 
-### 2. Objectif financier de Youtube
-Où sont les pubs ? Combien de % prend youtube ? 
-+ Ajouter les métriques de si Youtube sur rémunère sur la vidéo, combien il y a de pubs etc.
+- pourcentage des impressions issues des recommandations de YouTube + le nombre total d'impressions
+- l'évolution du nombre d'impression + l'évolution du taux de clics par impression + le taux de clics par impression général
+- la durée  de la vidéo + pourcentage moyen de vidéo regardé
+- état de la monétisation
 
+### 4. Télécharger les données
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
+
 # II - Nettoyez vos données
+Pour Nuancer :
+- Le taux de clics par impression est aussi influencé par le fait que certains connaissent la chaîne.
+- Plein d'autres variables rentrent en compte (si y a pas beaucoup de spéctacteurs uniques pour un assez grand nombre de vues, ça peut être un tutoriel par exemple)
 [nettoyez votre jeu de données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees)
 - Nettoyer un jeu de données
 - Représenter les variables
