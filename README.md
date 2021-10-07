@@ -1,8 +1,19 @@
-# I - Récupérez des données
-### 1. Comprendre les métriques
+## plan
+### I - Comprendre les métriques Youtube
+- .1. Sur les sources de trafic
+- .2. Sur les impressions
+- .3. Sur les revenus
+- .4. Autres métriques
+- .5. L'objectif financier de Youtube
+### II - Récupérer les données
+
+
+
+# I - Comprendre les métriques Youtube
 [Documentation Youtube sur les données](https://support.google.com/youtube/topic/9257532?hl=fr&ref_topic=9257610)
 
-**Sur les sources de trafic : comment les spectateurs trouvent les vidéos**
+### 1. Sur les sources de trafic : Comment les spectateurs trouvent-ils les vidéos ?
+
 | Donnée | Explication |
 |----------|-------|
 |Fonctionnalités de navigation| Trafic généré par la page d'accueil, le flux "Abonnements", la playlist "À regarder plus tard", les onglets "Tendances" et "Découvrir" ainsi que d'autres fonctionnalités de navigation. |
@@ -11,35 +22,36 @@
 |Autres fonctionnalités YouTube|Trafic généré par YouTube qui ne rentre pas dans les autres catégories.|
 |*Pourcentage des impressions issues des recommandations de YouTube* (pas indiqué dans les stats, prélevable à la main)| Par exemple : 85,4 % suite aux recommandations de votre contenu par YouTube. Sur la page d'accueil	+ sur la page de lecture (Le reste, pas contenu dans ce pourcentage c'est "les spectateurs à la recherche de votre contenu") |
 
-**Sur les impressions : comment les impressions de vos miniatures font cliquer** :
+### 2. Sur les impressions : Comment les impressions de vos miniatures font-elles cliquer ?
 | Donnée | Explication |
 |----------|-------|
 |*Impressions* | Nombre de fois où vos miniatures ont été présentées aux spectateurs sur YouTube grâce aux impressions enregistrées.|
 |*Taux de clics par impression* | Nombre de fois où les spectateurs ont regardé une vidéo après avoir vu sa miniature. Vues par impression. Mesure la fréquence à laquelle les spectateurs regardent une vidéo après avoir vu une impression. Sachant que plus la vidéo est recommandée, plus ce taux baisse |
 
-**Sur les impressions : comment les impressions de vos miniatures ont généré des vues et contribué à la durée de visionnage** :
+**Comment les impressions de vos miniatures ont-elles généré des vues et contribué à la durée de visionnage ?** 
+
 | Donnée | Explication |
 |----------|-------|
 |*Vues générées par les impressions*| Nombre de vues générées par les impressions pour la plage de dates sélectionnée. (car les impressions ne comptabilisent par exemple pas le Site Web mobile YouTube, l'application Youtube Music...)|
 |*Durée de visionnage générées par les impressions*|Durée de visionnage générée par les impressions pour la plage de dates sélectionnée.|
 |Vues|Nombre de vues légitimes pour vos chaînes ou vidéos.|
 
-**Sur les revenus** : 
+### 3. Sur les revenus
 | Donnée | Explication |
 |----------|-------|
 |CPM| désigne le coût pour mille impressions basé sur les lectures. Indique combien les annonceurs ont payé pour 1 000 lectures monétisées. Le CPM est calculé en divisant le total des revenus générés par les annonces par le nombre estimé de lectures monétisées. Une lecture monétisée est enregistrée lorsqu'un spectateur voit au moins une impression d'annonce pendant qu'il regarde l'une de vos vidéos (il s'agit d'une estimation).|
 |RPM| Le revenu pour mille vues, représente la somme d'argent générée par millier de vues d'une vidéo (comprend les annonces, les souscriptions aux chaînes, YouTube Premium, les Super Chats et les Super Stickers.)|
 |Revenus estimés||
 
-**Autres métriques**
+### 4. Autres métriques
+
 | Donnée | Explication |
 |----------|-------|
 |Spectateurs uniques | Estimation du nombre de spectateurs ayant regardé votre contenu pendant la plage de dates sélectionnée.|
 |*Durée de visionnage (heures)* | Durée pendant laquelle les spectateurs ont regardé votre vidéo.|
 |Pourcentage moyen de vidéo regardé|Pourcentage moyen de visionnage d'une vidéo par votre audience.|
 
-
-### 2. Objectif financier de Youtube
+### 5. L'Objectif financier de Youtube
 
 | Donnée | Explication |
 |----------|-------|
