@@ -1,4 +1,4 @@
-## plan
+## Plan
 ### I - Comprendre les métriques Youtube
 - .1. Sur les sources de trafic
 - .2. Sur les impressions
@@ -6,8 +6,12 @@
 - .4. Autres métriques
 - .5. L'objectif financier de Youtube
 ### II - Récupérer les données
-
-
+- .1. Choisir ses métriques
+- .2. Télécharger les données
+### III - Nettoyer les données
+- .1. Vocabulaire
+- .2. Installer les outils
+- .3. Récupérer les données
 
 # I - Comprendre les métriques Youtube
 [Documentation Youtube sur les données](https://support.google.com/youtube/topic/9257532?hl=fr&ref_topic=9257610)
@@ -70,7 +74,8 @@ Youtube dit : "Les annonces vidéo sont moins susceptibles d'être diffusées su
 - Revenus liés à la publicité : YouTube vous versera 55 % des revenus nets reconnus par YouTube à partir de publicités affichées ou diffusées par YouTube ou par un tiers autorisé sur les pages de visualisation de votre Contenu ou dans ou sur le lecteur vidéo YouTube en rapport avec la diffusion de votre Contenu.
 - Revenus liés aux abonnements (=par YouTube Music, Google Play Musique et YouTube Premium) : YouTube vous versera 55 % des revenus nets totaux reconnus par YouTube à partir des frais d’abonnement attribuables aux vues mensuelles ou au temps de visionnement de votre Contenu en tant que  pourcentage des vues mensuelles ou du temps de visionnement de la totalité ou d’un élément du Contenu inclus au sein d’une offre par abonnement pertinente.
 
-### 3. Choisir ses métriques
+# I - Télécharger les données
+### 1. Choisir ses métriques
 Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos contenus, augmentez votre taux de clics et la durée de visionnage de vos vidéos"
 
 | Objectif | Explication |
@@ -85,51 +90,84 @@ Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos con
 - la durée  de la vidéo + pourcentage moyen de vidéo regardé
 - état de la monétisation
 
-### 4. Télécharger les données
+### 2. Télécharger les données
+Il est possible d'exporter direct dans Youtube Studio en haut à droite (soit en csv, soit dans Google Sheets)
 
-Demander les données aux gens :
-
-**Sur les stats globales , en google sheets :**
-- vues
-- le nombre total d'impressions
-- le taux de clics par impression général
-- pourcentage moyen de vidéo regardé
-- Sélectionner ces données là : Vues, Pourcentage moyen de vidéo regardé, Durée moyenne d'une vue, Impressions, Taux de clics par impression
-=> Pour le “total”
+**Sur les stats globales :**
+- Vues
+- Pourcentage moyen de vidéo regardé
+- Pourcentage moyen de vidéo regardé
+- Impressions
+- Taux de clics par impression
+- Pour le “total”
 => Attention à bien mettre “depuis toujours”
-=> Exporter en google sheets
 
-=> Sélectionner les 24 dernières vidéos.
-
-**Sur l’évolution du taux de clics de toutes les vidéos en .csv :**
+**Sur l’évolution du taux de clics de toutes les vidéos :**
 - évolution du taux de clics par impression
-- attention à bien mettre “depuis toujours”
+- Pour “depuis toujours”
 => mettre sur le graphique “taux de clics par impression”
 => que la stat “taux de clics par impression”
-=> sélectionner 12 premières vidéos des vidéos qu’on a sélectionné
-=> attention à exporter en csv
-=> désélectionner les 12 premières et prendre les 12 suivantes des vidéos qu’on a sélectionné
-=> attention à exporter en csv
 
-**Sur l’évolution du nombre d'impression de toutes les vidéos en .csv :**
+**Sur l’évolution du nombre d'impression de toutes les vidéos :**
 - évolution du nombre d'impressions
-=> attention à bien mettre “depuis toujours”
+- Pour “depuis toujours”
 => mettre sur le graphique “impression”
 => que la stat “impression”
-=> sélectionner 12 premières vidéos des vidéos qu’on a selectionné
-=> attention à exporter en csv
-=> désélectionner les 12 premières et prendre les 12 suivantes des vidéos qu’on a selectionné
-=> attention à exporter en csv
 
 **Sur la recommandation et monétisation**
-- pour chacune des 24 vidéos m’envoyer l’image de la vignette, du fennel, puis une photo de la monétisation, + à la main ajouter durée de la vidéo
-
-
+- ajouter la durée de la vidéo
+- ajouter le pourcentage des impressions issu de la recommandation (dans le funnel, onglet couverture)
+- ajouter la monétisation de la vidéo (1, 2, ou 3)
 
 
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 
-# II - Nettoyez vos données
+# II - Récupérer et Nettoyer les données
+
+### 1. Vocabulaire
+
+| Domaine | Définition |
+|----------|-------|
+|Statistiques |on ne fait qu’observer et décrire objectivement un phénomène (par ex dans ce pays il y a 55% de femmes et 45% d'hommes)|
+|Statistiques inférentielles | dès lors que l'on modélise, cad qu'on essaye de trouver les lois mathématiques qui régissent les données observées (par ex dans ce pays, un enfant qui naît a une probabilité de 55% d’être une fille|
+|Statistiques descriptives|présenter, décrire et résumer le jeu de données, à l’aide de graphiques et de mesures (moyenne, écart-type, etc.). Chaque graphique (ou chaque mesure) est calculé(e) sur 1 ou 2 variables à la fois, pas plus.|
+|Analyse de données| Là, on étudie plutôt les relations entre 3 variables ou plus. Représenter des graphiques avec 3, 4, 5 ou 100 dimensions n’est plus possible sur du papier à 2 dimensions. Il faut donc utiliser des techniques spéciales pour continuer à décrire et explorer les données|
+
+| Terme | Définition |
+|----------|-------|
+|individus| ce qu'on étudie en statistiques (objets, des personnes, des animaux, des mesures physiques, etc.)|
+|variables/caractères | caractéristiques des individus|
+|population|ensemble des individus|
+|un échantillon|quand on sélectionne certains individus d’une population|
+|jeu de données/data set | équivalents à échantillon|
+
+On représente en général un échantillon sous forme de tableau, où chaque ligne correspond à un individu, et chaque colonne représente une variable
+
+### 2. Installer les outils
+La distribution Anaconda (une distribution c'est un langage de programmation + certaines librairies et autres fonctionnalités):
+- Python (fichiers en .py)
+- les librairies de Data Science : Matplotlib, Scipy, Numpy, Pandas
+- le notebook Jupyter (fichiers en .ipynb, permet de travailler dans un navigateur web, on peut facilement revenir en arrière sans tout relancer)
+
+````
+Jupyter Notebook :
+# a = créer une celule
+# m = créer un markdown
+````
+[installation et tests](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4927821-installez-r-ou-python)
+
+### 3. Récupérer les données
+Utiliser la méthode  read_csv  pour charger votre fichier csv
+
+```
+import pandas as pd
+import os
+df = pd.read_csv('all_videos.tsv', sep='\t')
+print(df) #pour imprimer tout df
+df.columns #pour vérifier les colonnes
+```
+
+
 Pour Nuancer :
 - Le taux de clics par impression est aussi influencé par le fait que certains connaissent la chaîne.
 - Plein d'autres variables rentrent en compte (si y a pas beaucoup de spéctacteurs uniques pour un assez grand nombre de vues, ça peut être un tutoriel par exemple)
