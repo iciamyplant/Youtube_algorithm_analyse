@@ -146,7 +146,7 @@ On représente en général un échantillon sous forme de tableau, où chaque li
 ### 2. Installer les outils
 La distribution Anaconda (une distribution c'est un langage de programmation + certaines librairies et autres fonctionnalités):
 - Python (fichiers en .py)
-- les librairies de Data Science : Matplotlib, Scipy, Numpy, Pandas
+- les librairies de Data Science : Matplotlib (créer des graphiques sous python), Scipy, Numpy, Pandas
 - le notebook Jupyter (fichiers en .ipynb, permet de travailler dans un navigateur web, on peut facilement revenir en arrière sans tout relancer)
 
 ````
@@ -177,11 +177,17 @@ Pour Nuancer :
 - analyse univariée
 - analyse bivariée
 # III - Explorez vos données
+
+[Analysez la corrélation entre deux variables quantitatives](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4725622-analysez-la-correlation-entre-deux-variables-quantitatives)
+
+[Analysez deux variables quantitatives par régression](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4774671-analysez-deux-variables-quantitatives-par-regression-lineaire)
+
 - Analyse en Composantes Principales (ACP)
 permet de dégager rapidement les principales tendances de l'échantillon, en diminuant le nombre de variables nécessaires à la représentation de vos données
 - Le clustering (2 Méthodes : algorithme k-means et classification hiérarchique)
 Permet de regrouper individus selon leurs similarités
 - Data visualisation
+- 
 # IV - Modélisez vos données
 Un modèle = représentation mathématique d’un problème donné
 - outils d'IA
