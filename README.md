@@ -1,19 +1,29 @@
+
 ## Plan
-### I - Comprendre les métriques Youtube
+### I - Revue de Littérature
+
+### II - Comprendre les métriques Youtube
 - .1. Sur les sources de trafic
 - .2. Sur les impressions
 - .3. Sur les revenus
 - .4. Autres métriques
 - .5. L'objectif financier de Youtube
-### II - Récupérer les données
+### III - Télécharger les données
 - .1. Choisir ses métriques
 - .2. Télécharger les données
-### III - Nettoyer les données
+### IV - Récupérer et Nettoyer les données
 - .1. Vocabulaire
 - .2. Installer les outils
 - .3. Récupérer les données
 
-# I - Comprendre les métriques Youtube
+
+# I - Revue de Littérature
+
+
+
+
+
+# II - Comprendre les métriques Youtube
 [Documentation Youtube sur les données](https://support.google.com/youtube/topic/9257532?hl=fr&ref_topic=9257610)
 
 ### 1. Sur les sources de trafic : Comment les spectateurs trouvent-ils les vidéos ?
@@ -74,7 +84,7 @@ Youtube dit : "Les annonces vidéo sont moins susceptibles d'être diffusées su
 - Revenus liés à la publicité : YouTube vous versera 55 % des revenus nets reconnus par YouTube à partir de publicités affichées ou diffusées par YouTube ou par un tiers autorisé sur les pages de visualisation de votre Contenu ou dans ou sur le lecteur vidéo YouTube en rapport avec la diffusion de votre Contenu.
 - Revenus liés aux abonnements (=par YouTube Music, Google Play Musique et YouTube Premium) : YouTube vous versera 55 % des revenus nets totaux reconnus par YouTube à partir des frais d’abonnement attribuables aux vues mensuelles ou au temps de visionnement de votre Contenu en tant que  pourcentage des vues mensuelles ou du temps de visionnement de la totalité ou d’un élément du Contenu inclus au sein d’une offre par abonnement pertinente.
 
-# I - Télécharger les données
+# III - Télécharger les données
 ### 1. Choisir ses métriques
 Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos contenus, augmentez votre taux de clics et la durée de visionnage de vos vidéos"
 
@@ -122,7 +132,7 @@ Il est possible d'exporter direct dans Youtube Studio en haut à droite (soit en
 
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 
-# II - Récupérer et Nettoyer les données
+# IV - Récupérer et Nettoyer les données
 
 ### 1. Vocabulaire
 
@@ -176,6 +186,13 @@ Pour Nuancer :
 - Représenter les variables
 - analyse univariée
 - analyse bivariée
+
+
+
+
+
+
+
 # III - Explorez vos données
 
 [Analysez la corrélation entre deux variables quantitatives](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4725622-analysez-la-correlation-entre-deux-variables-quantitatives)
