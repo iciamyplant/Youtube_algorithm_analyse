@@ -51,6 +51,9 @@ API = Application Programming Interface
 -  Consulter la documentation de l'API, et la section qui nous intéresse. C’est comme ça qu'on va trouverer les ressources, URI et endpoints que vous pouvez utiliser pour récupérer des données. 
 -  
 
+| type | def |
+|----------|-------|
+| Applications | Toutes les apps |
 
 
 
