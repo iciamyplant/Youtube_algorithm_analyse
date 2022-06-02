@@ -41,6 +41,7 @@ Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être dava
 
 ````
 ./Youtube_algorithm_analyse/"Problématique et protocole"/EXERCICE2_FINAL.pdf //document complet
+./Youtube_algorithm_analyse/"Problématique et protocole"/EMMA_BOURDIT_SOUTENANCE1_MEMOIRE.pdf //Soutenance 1
 ````
 
 #### 1. Problématique
@@ -60,15 +61,10 @@ Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être dava
 
 # III - Exercice 3 : Analyse quantitative
 
-
-### III - Télécharger les données
-- .1. Choisir ses métriques
-- .2. Télécharger les données
-
-### IV - Récupérer et Nettoyer les données
-- .1. Vocabulaire
-- .2. Installer les outils
-- .3. Récupérer les données
+#### 1. Préparer le protocole
+#### 2. Récupérer données
+#### 3. Nettoyer données
+#### 4. Analyser
 
 -----------------------
 -----------------------
