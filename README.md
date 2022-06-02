@@ -10,7 +10,7 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 # I - Exercice 1 : Revue de Littérature
 
 ````
-./Youtube_algorithm_analyse/"Revue Litterature"/EXERCICE1_FINAL.pdf //document complet
+./Youtube_algorithm_analyse/"I - Revue Litterature"/EXERCICE1_FINAL.pdf //document complet
 ````
 
 #### 1. Fonctionnement des systèmes de recommandations
@@ -40,8 +40,8 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être davantage recommandée ?
 
 ````
-./Youtube_algorithm_analyse/"Problématique et protocole"/EXERCICE2_FINAL.pdf //document complet
-./Youtube_algorithm_analyse/"Problématique et protocole"/EMMA_BOURDIT_SOUTENANCE1_MEMOIRE.pdf //Soutenance 1
+//NON PUBLIC ./Youtube_algorithm_analyse/"II - Problématique et protocole"/EXERCICE2_FINAL.pdf //document complet
+./Youtube_algorithm_analyse/"II - Problématique et protocole"/EMMA_BOURDIT_SOUTENANCE1_MEMOIRE.pdf //Soutenance 1
 ````
 
 #### 1. Problématique
@@ -56,7 +56,6 @@ Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être dava
 #### 4. Protocole de récupération des données
 - 4.1 Méthodologie de contact
 - 4.2 Confidentialité
-
 
 
 # III - Exercice 3 : Analyse quantitative
