@@ -1,33 +1,86 @@
 NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 
 ## Plan
-### I - Revue de Littérature
+### I - Exercice 1 : Revue de Littérature
+### II - Exercice 2 : Problématique et protocole
+### III - Exercice 3 : Analyse quantitative
+### IV - Apprentissages
 
-### II - Comprendre les métriques Youtube
-- .1. Sur les sources de trafic
-- .2. Sur les impressions
-- .3. Sur les revenus
-- .4. Autres métriques
-- .5. L'objectif financier de Youtube
+
+# I - Exercice 1 : Revue de Littérature
+
+````
+./Youtube_algorithm_analyse/"Revue Litterature"/EXERCICE1_FINAL.pdf //document complet
+````
+
+#### 1. Fonctionnement des systèmes de recommandations
+- 1.1 Typologie des systèmes de recommandation
+- 1.2 Application d’un système de recommandation collaborative-filtered
+- 1.3 Application d’un système de recommandation content-based
+#### 2. Fonctionnement du système de recommandations de YouTube
+- 2.1 Présentation du système de recommandation YouTube
+- 2.2 Un système de recommandation des plus sophistiqués
+- 2.3 Focus sur le Up Next Panel
+#### 3. Valeur crée par les systèmes de recommandations
+- 3.1 La valeur perçue par l’utilisateur
+- 3.2 La valeur économique des RS
+#### 4. La difficile modération des plateformes
+- 4.1 Le sensationnalisme stimulerait l’engagement des utilisateurs
+- 4.2 Le conspirationnisme, et les echo chambers sur YouTube
+- 4.3 La modération de YouTube
+#### 5. Transparence et Régulation
+- 5.1 La régulation européenne des services en ligne
+- 5.2 Le projet européen de régulation sur les systèmes de recommandation
+- 5.3 La régulation chinoise des systèmes de recommandation 
+
+
+# II - Exercice 2 : Problématique et protocole
+
+**Problématique** : YouTube recommande-t-il davantage les vidéos rémunératrices ?
+Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être davantage recommandée ?
+
+````
+./Youtube_algorithm_analyse/"Problématique et protocole"/EXERCICE2_FINAL.pdf //document complet
+````
+
+#### 1. Problématique
+#### 2. Fonctionnement de la monétisation
+- 2.1 Grades de monétisation : vidéos monétisées (1-3 pubs), limitées, inéligibles, et démonétisées
+- 2.2 Le CPM
+- 2.3 Le RPM
+#### 3. Présentation des données
+- 3.1 Quelques données fournies par Youtube pour chaque vidéo
+- 3.2 Exemple sur la vidéo “Je crack l’algorithme YouTube”
+- 3.3 Comment connaître le taux de recommandation d’une vidéo ?
+#### 4. Protocole de récupération des données
+- 4.1 Méthodologie de contact
+- 4.2 Confidentialité
+
+
+
+# III - Exercice 3 : Analyse quantitative
+
+
 ### III - Télécharger les données
 - .1. Choisir ses métriques
 - .2. Télécharger les données
+
 ### IV - Récupérer et Nettoyer les données
 - .1. Vocabulaire
 - .2. Installer les outils
 - .3. Récupérer les données
 
+-----------------------
+-----------------------
+-----------------------
+-----------------------
 
-# I - Revue de Littérature
+# IV - Apprentissages
 
-
-
-
-
-# II - Comprendre les métriques Youtube
+#### 1. Comprendre les métriques Youtube
 [Documentation Youtube sur les données](https://support.google.com/youtube/topic/9257532?hl=fr&ref_topic=9257610)
 
-### 1. Sur les sources de trafic : Comment les spectateurs trouvent-ils les vidéos ?
+- Sources de trafic
 
 | Donnée | Explication |
 |----------|-------|
@@ -37,13 +90,13 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 |Autres fonctionnalités YouTube|Trafic généré par YouTube qui ne rentre pas dans les autres catégories.|
 |*Pourcentage des impressions issues des recommandations de YouTube* (pas indiqué dans les stats, prélevable à la main)| Par exemple : 85,4 % suite aux recommandations de votre contenu par YouTube. Sur la page d'accueil	+ sur la page de lecture (Le reste, pas contenu dans ce pourcentage c'est "les spectateurs à la recherche de votre contenu") |
 
-### 2. Sur les impressions : Comment les impressions de vos miniatures font-elles cliquer ?
+
+- Impressions
+
 | Donnée | Explication |
 |----------|-------|
 |*Impressions* | Nombre de fois où vos miniatures ont été présentées aux spectateurs sur YouTube grâce aux impressions enregistrées.|
 |*Taux de clics par impression* | Nombre de fois où les spectateurs ont regardé une vidéo après avoir vu sa miniature. Vues par impression. Mesure la fréquence à laquelle les spectateurs regardent une vidéo après avoir vu une impression. Sachant que plus la vidéo est recommandée, plus ce taux baisse |
-
-**Comment les impressions de vos miniatures ont-elles généré des vues et contribué à la durée de visionnage ?** 
 
 | Donnée | Explication |
 |----------|-------|
@@ -51,14 +104,15 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 |*Durée de visionnage générées par les impressions*|Durée de visionnage générée par les impressions pour la plage de dates sélectionnée.|
 |Vues|Nombre de vues légitimes pour vos chaînes ou vidéos.|
 
-### 3. Sur les revenus
+- Revenus
+
 | Donnée | Explication |
 |----------|-------|
 |CPM| désigne le coût pour mille impressions basé sur les lectures. Indique combien les annonceurs ont payé pour 1 000 lectures monétisées. Le CPM est calculé en divisant le total des revenus générés par les annonces par le nombre estimé de lectures monétisées. Une lecture monétisée est enregistrée lorsqu'un spectateur voit au moins une impression d'annonce pendant qu'il regarde l'une de vos vidéos (il s'agit d'une estimation).|
 |RPM| Le revenu pour mille vues, représente la somme d'argent générée par millier de vues d'une vidéo (comprend les annonces, les souscriptions aux chaînes, YouTube Premium, les Super Chats et les Super Stickers.)|
 |Revenus estimés||
 
-### 4. Autres métriques
+- Autres métriques
 
 | Donnée | Explication |
 |----------|-------|
@@ -66,7 +120,7 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 |*Durée de visionnage (heures)* | Durée pendant laquelle les spectateurs ont regardé votre vidéo.|
 |Pourcentage moyen de vidéo regardé|Pourcentage moyen de visionnage d'une vidéo par votre audience.|
 
-### 5. L'Objectif financier de Youtube
+- Monétisation
 
 | Donnée | Explication |
 |----------|-------|
@@ -76,19 +130,8 @@ NO CODE HERE BECAUSE DATAS CAN NOT BE PUBLIC
 |monétisé sans mid-roll = 3| Soit mid-roll désactivé à la main, soit la vidéo fait moins de 8min|
 |monétisé avec mid-roll = 4| |
 
-Les titulaires de droits d'auteur peuvent configurer Content ID pour bloquer les vidéos mises en ligne lorsqu'une correspondance est établie entre celles-ci et l'une de leurs œuvres protégées. Ils peuvent également accepter de laisser les contenus revendiqués en ligne sur YouTube, mais en activant la diffusion d'annonces. Dans ce cas, les revenus publicitaires sont reversés aux titulaires des droits d'auteur des contenus en question.
 
-Youtube dit : "Les annonces vidéo sont moins susceptibles d'être diffusées sur les vidéos très courtes. Ceci nous permet d'optimiser l'engagement des spectateurs et les revenus générés au cours de chaque session de visionnage sur YouTube."
-
-- Types d'annonces : Annonces display, Annonces en superposition, Fiches sponsorisées, Annonces vidéo désactivables, Annonces vidéo non désactivables [les types d'annonces](https://support.google.com/youtube/answer/2467968?hl=fr)
-- Les annonces placées avant et après votre vidéo seront activées automatiquement.
-- Revenus liés à la publicité : YouTube vous versera 55 % des revenus nets reconnus par YouTube à partir de publicités affichées ou diffusées par YouTube ou par un tiers autorisé sur les pages de visualisation de votre Contenu ou dans ou sur le lecteur vidéo YouTube en rapport avec la diffusion de votre Contenu.
-- Revenus liés aux abonnements (=par YouTube Music, Google Play Musique et YouTube Premium) : YouTube vous versera 55 % des revenus nets totaux reconnus par YouTube à partir des frais d’abonnement attribuables aux vues mensuelles ou au temps de visionnement de votre Contenu en tant que  pourcentage des vues mensuelles ou du temps de visionnement de la totalité ou d’un élément du Contenu inclus au sein d’une offre par abonnement pertinente.
-
-# III - Télécharger les données
-### 1. Choisir ses métriques
-Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos contenus, augmentez votre taux de clics et la durée de visionnage de vos vidéos"
-
+#### 2. Choisir ses métriques
 | Objectif | Explication |
 |----------|-------|
 |Pour savoir à quel point une vidéo a été recommandée | le rapport entre le pourcentage des impressions issues des recommandations de YouTube et le nombre total d'impressions (Par exemple vidéo hacker une caméra 8 600 000 impressions et 85,4 % issus des recommandations Youtube. Soit 7 344 400 impressions générées par les recommandations)|
@@ -101,38 +144,9 @@ Youtube a écrit : "Pour accroître la probabilité que YouTube suggère vos con
 - la durée  de la vidéo + pourcentage moyen de vidéo regardé
 - état de la monétisation
 
-### 2. Télécharger les données
-Il est possible d'exporter direct dans Youtube Studio en haut à droite (soit en csv, soit dans Google Sheets)
 
-**Sur les stats globales :**
-- Vues
-- Pourcentage moyen de vidéo regardé
-- Pourcentage moyen de vidéo regardé
-- Impressions
-- Taux de clics par impression
-- Pour le “total”
-=> Attention à bien mettre “depuis toujours”
-
-**Sur l’évolution du taux de clics de toutes les vidéos :**
-- évolution du taux de clics par impression
-- Pour “depuis toujours”
-=> mettre sur le graphique “taux de clics par impression”
-=> que la stat “taux de clics par impression”
-
-**Sur l’évolution du nombre d'impression de toutes les vidéos :**
-- évolution du nombre d'impressions
-- Pour “depuis toujours”
-=> mettre sur le graphique “impression”
-=> que la stat “impression”
-
-**Sur la recommandation et monétisation**
-- ajouter la durée de la vidéo
-- ajouter le pourcentage des impressions issu de la recommandation (dans le funnel, onglet couverture)
-- ajouter la monétisation de la vidéo (1, 2, ou 3)
-
-
-### API RESTS
-#### 1. Connaissances générales
+### 3. Télécharger les données : API RESTS
+#### 3.1 Connaissances générales
 API = Application Programming Interface
 - Les API peuvent communiquer par l'utilisation de requetes et réponses : d’un logiciel à un logiciel ; d’un client à un serveur ; ou d’un logiciel à des développeurs (par ex quand on s'identifie avec le compte facebook sans mettre mdp).
 
@@ -149,7 +163,7 @@ API = Application Programming Interface
 | API rest | = restfull = Representational State Transfer. Se basent sur le protocole HTTP pour transférer les informations. Six lignes directrices architecturales clés pour les API REST (Client-serveur separation, Stateless, Cacheable...) |
 
 
-#### 2. S'initier au fonctionnement des API Rest
+#### 3.2 S'initier au fonctionnement des API Rest
 
 | terme | def |
 |----------|-------|
@@ -177,22 +191,20 @@ API = Application Programming Interface
 | Le body | contient l’information que vous avez demandée, et que l’API vous renvoie |
 | code de réponse HTTP | aide le développeur et/ou le client à comprendre le statut de la réponse (genre le 404 not found etc permet de savoir c'est quoi l'erreur |
 
-#### 3. Formuler une requêtes sur une API rest
+#### 3.3 Formuler une requêtes sur une API rest
 
 -  Consulter la documentation de l'API, et la section qui nous intéresse. C’est comme ça qu'on va trouverer les ressources, URI et endpoints que vous pouvez utiliser pour récupérer des données. 
--  
 
 | type | def |
 |----------|-------|
 | Applications | Toutes les apps |
 
 
-
 [télécharger les données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4726171-telechargez-les-donnees)
 
-# IV - Récupérer et Nettoyer les données
+### 4. Récupérer et Nettoyer les données
 
-### 1. Vocabulaire
+#### 4.1 Vocabulaire
 
 | Domaine | Définition |
 |----------|-------|
@@ -211,7 +223,7 @@ API = Application Programming Interface
 
 On représente en général un échantillon sous forme de tableau, où chaque ligne correspond à un individu, et chaque colonne représente une variable
 
-### 2. Installer les outils
+#### 4.2 Installer les outils
 La distribution Anaconda (une distribution c'est un langage de programmation + certaines librairies et autres fonctionnalités):
 - Python (fichiers en .py)
 - les librairies de Data Science : Matplotlib (créer des graphiques sous python), Scipy, Numpy, Pandas
@@ -236,21 +248,6 @@ df.columns #pour vérifier les colonnes
 ```
 
 
-Pour Nuancer :
-- Le taux de clics par impression est aussi influencé par le fait que certains connaissent la chaîne.
-- Plein d'autres variables rentrent en compte (si y a pas beaucoup de spéctacteurs uniques pour un assez grand nombre de vues, ça peut être un tutoriel par exemple)
-[nettoyez votre jeu de données - openclassroom](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees)
-- Nettoyer un jeu de données
-- Représenter les variables
-- analyse univariée
-- analyse bivariée
-
-
-
-
-
-
-
 # III - Explorez vos données
 
 [Analysez la corrélation entre deux variables quantitatives](https://openclassrooms.com/fr/courses/4525266-decrivez-et-nettoyez-votre-jeu-de-donnees/4725622-analysez-la-correlation-entre-deux-variables-quantitatives)
@@ -262,7 +259,7 @@ permet de dégager rapidement les principales tendances de l'échantillon, en di
 - Le clustering (2 Méthodes : algorithme k-means et classification hiérarchique)
 Permet de regrouper individus selon leurs similarités
 - Data visualisation
-- 
+
 # IV - Modélisez vos données
 Un modèle = représentation mathématique d’un problème donné
 - outils d'IA
