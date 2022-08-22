@@ -61,5 +61,30 @@ Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être dava
 
 #### 1. Préparer le protocole
 #### 2. Récupérer données
+
+deux APIs permettent aux développeurs de récupérer des données YouTube Analytics : YouTube Analytics API & YouTube Reporting API
+
+ |YouTube Analytics API|YouTube Reporting API|
+ |------|------|
+ | = prend en charge les requêtes ciblées en temps réel pour générer des rapports YouTube Analytics personnalisés, chaque demande de l'API spécifie la plage de dates pour laquelle les données seront renvoyées | = récupère des rapports groupés contenant des données YouTube Analytics, Chaque rapport contient un ensemble prédéfini de champs. Chaque rapport contient des données pour une période unique de 24 heures.|
+ 
+ Les rapports que renvoient les APIs contiennent deux types de données :
+ - dimensions = critère qui permet d'agréger les données (date, country...)
+ - métriques = mesure l'activité (nombre de j'aime, performances des annonces pub...)
+ 
+
+````
+pip install --upgrade google-api-python-client
+pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
+sudo pip install google-auth-oauthlib
+````
+
+OAuth consent screen > + ADD USERs
+
+Tutoriel pour faire la première query : [ici](https://developers.google.com/youtube/analytics/reference/reports/query?apix_params=%7B%22dimensions%22%3A%22video%22%2C%22endDate%22%3A%222018-05-01%22%2C%22ids%22%3A%22channel%3D%3DMINE%22%2C%22maxResults%22%3A10%2C%22metrics%22%3A%22estimatedMinutesWatched%2Cviews%2Clikes%2CsubscribersGained%22%2C%22sort%22%3A%22-estimatedMinutesWatched%22%2C%22startDate%22%3A%222017-01-01%22%7D#python)
+
+
+
+
 #### 3. Nettoyer données
 #### 4. Analyser
