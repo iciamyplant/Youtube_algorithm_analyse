@@ -62,6 +62,8 @@ Est-ce qu’une vidéo rapportant plus d’argent est susceptible d’être dava
 #### 1. Préparer le protocole
 #### 2. Récupérer données
 
+##### 2.1 Savoir quelle API utiliser + créer un projet
+
 deux APIs permettent aux développeurs de récupérer des données YouTube Analytics : YouTube Analytics API & YouTube Reporting API
 
  |YouTube Analytics API|YouTube Reporting API|
@@ -71,18 +73,63 @@ deux APIs permettent aux développeurs de récupérer des données YouTube Analy
  Les rapports que renvoient les APIs contiennent deux types de données :
  - dimensions = critère qui permet d'agréger les données (date, country...)
  - métriques = mesure l'activité (nombre de j'aime, performances des annonces pub...)
+
+Créer un projet dans Google Cloud
  
+ ##### 2.2 S'authentifier
+Aller dans credentials [ici](https://console.cloud.google.com/apis/credentials?project=youtube-research-dissertation)
+- create a credential
+- OAuth Client ID
+- copier le client_secrets.json dans mon directory où je travaille
+
+OAuth consent screen > + ADD USERs : [ici](https://console.cloud.google.com/apis/credentials/consent?project=youtube-research-dissertation) ==> ajouter l'adresse mail avec laquelle on va se connecter
+
+ ##### 2.3 lancer une query test
 
 ````
 pip install --upgrade google-api-python-client
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 sudo pip install google-auth-oauthlib
+python yt_analytics_v2.py
+==> copier coller l'URL > cliquer sur le compte YouTube > continuer > autoriser > copier le code autorisation > le rentrer dans la console
+==> le json s'imprime dans le terminal
+
 ````
-
-OAuth consent screen > + ADD USERs
-
 Tutoriel pour faire la première query : [ici](https://developers.google.com/youtube/analytics/reference/reports/query?apix_params=%7B%22dimensions%22%3A%22video%22%2C%22endDate%22%3A%222018-05-01%22%2C%22ids%22%3A%22channel%3D%3DMINE%22%2C%22maxResults%22%3A10%2C%22metrics%22%3A%22estimatedMinutesWatched%2Cviews%2Clikes%2CsubscribersGained%22%2C%22sort%22%3A%22-estimatedMinutesWatched%22%2C%22startDate%22%3A%222017-01-01%22%7D#python)
 
+ ##### 2.4 Créer la bonne query
+Channel_id ?
+YouTube Studio > Paramètres > Chaîne > Paramètres avancés > Gérer votre compte YouTube > Paramètres avancés
+
+Pour récupérer des metrics par jour pour une video :
+`````
+        dimensions="day",
+        endDate="2021-01-27",
+        filters="video==pzXOgXmO3Tw", # faire défiler les videos
+        ids="channel==MINE",
+        metrics="views",
+        startDate="2021-01-01",
+        alt="json"
+`````
+
+
+
+
+
+Pour convertir json en csv :
+````
+import json
+import pandas as pd
+from pandas import json_normalize
+
+with open('test.json') as json_file:
+    data = json.load(json_file)
+    #print (data)
+
+df = pd.DataFrame(data['rows'],columns=['video','estimatedMinutesWatched','views','likes','subscribersGained'])
+
+print(df)
+````
 
 
 
